@@ -6,8 +6,8 @@ class XcconfigCrypt < Formula
   head "https://github.com/koleson/xcconfig-crypt.git"
 
   bottle do
-    root_url "https://github.com/koleson/homebrew-formulae/releases/download/xcconfig-crypt-0.1.7"
-    sha256 cellar: :any_skip_relocation, catalina: "8f18ecef52cc90a8513823023ea137a6329e64e4f5a91408f53990d75008aa98"
+    root_url "https://github.com/koleson/homebrew-formulae/releases/download/xcconfig-crypt-0.1.8"
+    sha256 cellar: :any_skip_relocation, catalina: "d106d6630d90e78e6f2abbcdeaabfe230811b0332011278f4e134d5aee89474e"
   end
 
   depends_on xcode: ["12.0", :build]
