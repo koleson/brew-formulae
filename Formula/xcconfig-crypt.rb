@@ -12,6 +12,6 @@ class XcconfigCrypt < Formula
   end
 
   test do
-    system bin/"xcconfig-crypt", " -h"
+    system bin/"xcconfig-crypt", "-h"
   end
 end
